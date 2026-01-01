@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.left_area {
+    width: 8%;
+    height: 100%;
+    background: black;
+    color: white;
+    writing-mode: sideways-lr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: max(1.4vw, 16px);
+}
+
+.right_area {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.main_area strong{
+	display: inline-block;
+	width: 100%;
+    font-size: max(12vw, 150px);
+}
+
+.main_area span{
+	display: inline-block;
+	width: 100%;
+    font-size: max(1.5vw, 19px);
+}
+
+.year{
+	position: absolute;
+    right: 25px;
+    top: 25px;
+    height: 25px;
+    border-bottom: solid 1px;
+}
+
+.btn{
+	position: fixed;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn img{
+	width: 60%;
+    height: 60%;
+    cursor: pointer;
+    margin: auto;
+}
