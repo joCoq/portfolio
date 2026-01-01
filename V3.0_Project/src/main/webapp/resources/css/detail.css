@@ -66,12 +66,10 @@ div.type2 .contents .right_area{
 }
 
 .info_head .img{
-	min-width: 315px;
-    min-height: 350px;
-    max-width: 355px;
-    max-height: 415px;
+	min-width: 260px;
+    max-width: 290px;
     height: 100%;
-    width: 65%;
+    width: 60%;
 }
 
 .info{
@@ -411,4 +409,5 @@ div.type3 .contents .right_area{
 	width: 100%;
 	height: 100%;
 	cursor: pointer;
+
 }
